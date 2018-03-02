@@ -1,0 +1,27 @@
+*,
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+  background-image: url("../img/wall.jpeg");
+  background-repeat: no-repeat;
+}
+
+.top-nav {
+  background-color: rgba(163, 163, 163, 0.75);
+  overflow: hidden;
+  height: 100%
+}
+
+.top-nav a , button {
+  float: right;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  margin-left: 10px;
+  margin-right: 10px;
+}
