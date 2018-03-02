@@ -9,6 +9,7 @@ html {
 body {
   background-image: url("../img/wall.jpeg");
   background-repeat: no-repeat;
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
 }
 
 .top-nav {
@@ -17,7 +18,7 @@ body {
   width: 960px;
 }
 
-.top-nav a , button {
+.top-nav a{
   float: right;
   text-align: center;
   text-decoration: none;
@@ -26,12 +27,37 @@ body {
   margin-right: 10px;
 }
 
+.slogan {
+  text-align: center;
+  color: black;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 30px
+}
+
+.main {
+  text-align: center;
+}
+
+.main-buttons {
+  /*margin-left: 0 auto;
+  margin-right: 0 auto;*/
+  width: 200px;
+  height: 70px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
 #signin-button {
-  background-color: Transparent
+  background-color: Transparent;
+  float: right;
 }
 
 #email-button {
   background-color: #d8c6af;
+  float: right;
 }
 
 #nav-icon {
@@ -39,4 +65,26 @@ body {
   width: 30px;
   height: 30px;
 
+}
+
+#nav-icon-big {
+  display: block;
+  margin-top: 65px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  height: 250px;
+}
+
+#story-button {
+  background-color: rgba(163, 163, 163, 0.75);
+}
+
+#facebook-button {
+  background-color: #3B5998;
+}
+
+#facebook-icon {
+  width: 20px;
+  height: 20px;
 }
