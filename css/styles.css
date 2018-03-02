@@ -1,0 +1,32 @@
+*,
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+h2 {
+  color: #cc8100;
+}
+.portrait{
+  float: left;
+}
+
+.banner {
+  background-color: #ffcc75;
+}
+
+.red-text {
+  color: red;
+}
+
+.portrait-name {
+  color: blue;
+  font-weight: bold;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+}
