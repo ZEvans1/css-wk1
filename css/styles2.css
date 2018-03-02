@@ -14,7 +14,7 @@ body {
 .top-nav {
   background-color: rgba(163, 163, 163, 0.75);
   overflow: hidden;
-  height: 100%
+  width: 960px;
 }
 
 .top-nav a , button {
@@ -24,4 +24,19 @@ body {
   color: black;
   margin-left: 10px;
   margin-right: 10px;
+}
+
+#signin-button {
+  background-color: Transparent
+}
+
+#email-button {
+  background-color: #d8c6af;
+}
+
+#nav-icon {
+  float: left;
+  width: 30px;
+  height: 30px;
+
 }
