@@ -6,6 +6,17 @@ html {
     box-sizing: inherit;
 }
 
+h1 {
+  margin-top: 16px;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  color: purple;
+  font-size: 50px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+}
 body {
   background-image: url("../img/wall.jpeg");
   background-repeat: no-repeat;
@@ -32,7 +43,7 @@ body {
 
 .slogan {
   text-align: center;
-  color: black;
+  color: purple;
   background-color: rgba(163, 163, 163, 0.75);
   font-style: italic;
   font-weight: bold;
@@ -41,7 +52,7 @@ body {
   width: 705px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 .main {
@@ -85,7 +96,7 @@ body {
 
 #nav-icon-big {
   display: block;
-  margin-top: 65px;
+  margin-top: 10px;
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
